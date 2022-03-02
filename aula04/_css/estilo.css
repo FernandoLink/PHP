@@ -7,7 +7,7 @@ body {
 }
 
 div::before {
-    content: " Curso de PHP para Iniciantes - by Gustavo Guanabara ";
+    content: " PHP Básico ";
     font: 10pt Arial;
     font-weight: bold;
     color: white;
