@@ -11,8 +11,9 @@
   * variáveis referenciadas (referencia.php).
   * variáveis de variáveis (variaveisvariaveis.php)
 - aula07
-  * operador unário (operacao.php).
+  * operador ternário (operacao.php).
   * igual e idêntico (igualidentico.php).
   * concatenação (situacao.php).
   * operador lógico (eleicoes.php).
 - aula08 - dados de formulário em PHP.
+- aula09 - estrutura condicional if.
