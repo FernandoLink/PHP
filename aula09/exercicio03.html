@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <title>Situação Escolar do Aluno</title>
+</head>
+<body>
+    <div>  
+        <form method="get" action="exercicio03.php">
+            Nota 1: <input type="range" id="nota1" name="nota1" value="0" style="margin: 5px;" min="0" max="10" step="0.1" list="tickmarks" oninput="display1.value=value" onchange="display1.value=value">
+            <input type="text" id="display1" value="0" oninput="nota1.value=value" onchange="nota1.value=value">
+            <br>
+            Nota 2: <input type="range" id="nota2" name="nota2" value="0" style="margin: 5px;" min="0" max="10" step="0.1" list="tickmarks" oninput="display2.value=value" onchange="display2.value=value">
+            <input type="text" id="display2" value="0" oninput="nota2.value=value" onchange="nota2.value=value">
+            <br>
+            <input type="submit" value="Calcular Média" style="padding: 5px;"/>
+        </form>  
+    </div>
+</body>
+</html>
