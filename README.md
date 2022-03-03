@@ -17,3 +17,4 @@
   * operador lógico (eleicoes.php).
 - aula08 - dados de formulário em PHP.
 - aula09 - estrutura condicional if.
+- aula10 - estrutura condicional switch.
