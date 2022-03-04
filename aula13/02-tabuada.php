@@ -10,15 +10,11 @@
 <body>
     <div>  
         <?php
-            $v = isset($_GET['val']) ? $_GET['val'] : 1;
-            echo "<h1>Calculando o fatorial de $v.</h1>";
-            $c = $v;
-            $f = 1;
-            do {
-                $f *= $c; 
-                $c--;
-            } while ($c >= 1);
-            echo "<h2>$v! = $f.</h2>";
+            $n = isset($_GET['num']) ? $_GET['num'] : 1;
+            for($c = 1; $c <= 10; $c++) {
+                $r = $n * $c;
+                echo "$n x $c = $r<br/>";
+            }
         ?>
         <br>
         <p><a href="javascript:history.go(-1)" class="botao">Voltar</a></p>
