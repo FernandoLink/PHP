@@ -18,3 +18,4 @@
 - aula08 - dados de formulário em PHP.
 - aula09 - estrutura condicional if.
 - aula10 - estrutura condicional switch.
+- aula11 - estrutura de repetição while.
