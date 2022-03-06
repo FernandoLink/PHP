@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/estilo.css">
-    <title>ord</title>
+    <title>str_pad</title>
 </head>
 
 <body>
     <div>
         <?php
-        $letra = "C";
-        $cod = ord($letra);
-        echo "A letra de código $cod é $letra.";
+        $nome = "Link";
+        $novo = str_pad($nome, 30, "#", STR_PAD_LEFT);
+        print("Meu professor $novo é lindo.");
         ?>
     </div>
 </body>

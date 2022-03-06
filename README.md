@@ -24,3 +24,6 @@
 - aula14 - rotinas.
 - aula15 - rotinas externas.
 - aula16 - funções para manipulação de strings.
+- aula17 - funções para manipulação de strings.
+- aula18 - vetores e matrizes.
+- aula19 - vetores e matrizes.
