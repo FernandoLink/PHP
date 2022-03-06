@@ -23,3 +23,4 @@
 - aula13 - estrutura de repetição for.
 - aula14 - rotinas.
 - aula15 - rotinas externas.
+- aula16 - funções para manipulação de strings.
