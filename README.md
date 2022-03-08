@@ -28,5 +28,6 @@
 - aula18 - vetores e matrizes.
 - aula19 - vetores e matrizes.
 - POO
-  * aula03 - classe e objeto.
-  * aula04 - visibilidade de objetos.
+  * aula02 - classe e objeto.
+  * aula03 - visibilidade de objetos.
+  * aula04 - getter, setter e construtor.
