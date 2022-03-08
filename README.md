@@ -27,3 +27,6 @@
 - aula17 - funções para manipulação de strings.
 - aula18 - vetores e matrizes.
 - aula19 - vetores e matrizes.
+- POO
+  * aula03 - classe e objeto.
+  * aula04 - visibilidade de objetos.
