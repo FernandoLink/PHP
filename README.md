@@ -31,3 +31,4 @@
   * aula02 - classe e objeto.
   * aula03 - visibilidade de objetos.
   * aula04 - getter, setter e construtor.
+  * aula05 - exemplo prático com objetos.
