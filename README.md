@@ -32,3 +32,4 @@
   * aula03 - visibilidade de objetos.
   * aula04 - getter, setter e construtor.
   * aula05 - exemplo prático com objetos.
+  * aula06 - encapsulamento.
