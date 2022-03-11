@@ -33,7 +33,7 @@ class Lutador
     }
     public function perderLuta()
     {
-        $this->setDerrotas($this->getDerrotas() - 1);
+        $this->setDerrotas($this->getDerrotas() + 1);
     }
     public function empatarLuta()
     {
@@ -50,7 +50,7 @@ class Lutador
         $this->setDerrotas($de);
         $this->setEmpates($em);
     }
-    private function getNome()
+    public function getNome()
     {
         return $this->nome;
     }
@@ -91,7 +91,7 @@ class Lutador
         $this->peso = $pe;
         $this->setCategoria();
     }
-    private function getCategoria()
+    public function getCategoria()
     {
         return $this->categoria;
     }

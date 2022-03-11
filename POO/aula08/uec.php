@@ -24,8 +24,10 @@
         $l[5] = new Lutador("Nerdart", "EUA", 30, 1.81, 105.6, 12, 2, 4);
 
         $uec01 = new Luta();
-        $uec01->marcarLuta($l[0], $l[1]);
+        $uec01->marcarLuta($l[4], $l[5]);
         $uec01->lutar();
+        $l[4]->status();
+        $l[5]->status();
         ?>
     </pre>
 </body>

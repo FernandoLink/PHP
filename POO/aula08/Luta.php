@@ -7,13 +7,13 @@ class Luta
     private $rounds;
     private $aprovada;
 
-    public function marcarLuta($desafiado, $desafiante)
-    {   
-        if (($desafiado->getCategoria() == $desafiante->getCategoria())
-        && ($desafiado != $desafiante)){
+    public function marcarLuta($l1, $l2)
+    {
+        if (($l1->getCategoria() === $l2->getCategoria()) && ($l1 != $l2))
+        {
             $this->setAprovada(true);
-            $this->setDesafiado($desafiado);
-            $this->setDesafiante($desafiante);
+            $this->setDesafiado($l1);
+            $this->setDesafiante($l2);
         } else {
             $this->setAprovada(false);
             $this->setDesafiado(null);
@@ -22,34 +22,30 @@ class Luta
     }
     public function lutar()
     {
-        if($this->getAprovada()){
+        if ($this->getAprovada()) {
             $this->desafiado->apresentar();
             $this->desafiante->apresentar();
-            $vencedor = 1;
+            $vencedor = rand(0, 2);
             switch ($vencedor) {
                 case 0: // Empate
-                    echo "Empatou!";
+                    echo "<p>Empatou!</p>";
                     $this->desafiado->empatarLuta();
                     $this->desafiante->empatarLuta();
                     break;
-                case 1: // Ganhou Desafiado
-                    echo $this->desafiado->getNome();
+                case 1: // Desafiado vence
+                    echo "<p>".$this->desafiado->getNome(). " venceu.</p>";
                     $this->desafiado->ganharLuta();
                     $this->desafiante->perderLuta();
                     break;
-                case 2: // Ganho Desafiante
-                    echo $this->desafiante->getNome();
+                case 2: // Desafiante vence
+                    echo "<p>".$this->desafiante->getNome(). " venceu.</p>";
                     $this->desafiado->perderLuta();
                     $this->desafiante->ganharLuta();
                     break;
             }
-
         } else {
-            echo "Luta não pode acontecer.";
+            echo "<p>Luta não pode acontecer.</p>";
         }
-    }
-    public function __construct()
-    {
     }
     private function getDesafiado()
     {
