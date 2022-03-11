@@ -35,3 +35,4 @@
   * aula06 - encapsulamento.
   * aula07 - relacionamento entre classes.
   * aula08 - agregação de objetos.
+  * aula09 - exercício prático.
