@@ -37,3 +37,4 @@
   * aula08 - agregação de objetos.
   * aula09 - exercício prático.
   * aula10 - herança.
+  * aula11 - abstrato e final.
