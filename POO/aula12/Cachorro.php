@@ -1,14 +1,17 @@
 <?php
-require_once 'Mamifero.php';
-class Cachorro extends Mamifero
+require_once 'Lobo.php';
+class Cachorro extends Lobo
 {
-    public function emitirSom(){
+    public function emitirSom()
+    {
         echo "<p>Au!Au!Au!</p>";
     }
-    public function enterrarOsso(){
+    public function enterrarOsso()
+    {
         echo "<p>Enterrando o Osso.</p>";
     }
-    public function abanarRabo(){
+    public function abanarRabo()
+    {
         echo "<p>Abanando o Rabo.</p>";
-    }
+    }   
 }
